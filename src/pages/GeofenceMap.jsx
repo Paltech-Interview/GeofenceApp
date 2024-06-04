@@ -116,8 +116,8 @@ const GeofenceMap = () => {
             <div style={{ marginBlock: "2vh", marginInline: "2vw" }}>
                 <p>Notes on usage: </p>
                 <ul>
-                    <li>Click on "Start Creating Geofence" each time to start creating geofences on the map</li>
-                    <li>After clicking "Start Creating Geofence", click different points on map to create geofences </li>
+                    <li>Click on "Start Marking Geofence" each time to start creating geofences on the map</li>
+                    <li>After clicking "Start Marking Geofence", click different points on map to create geofences </li>
                     <li>Click on selected geofences to deselect it </li>
                     <li>Click on "Save Geofence" to save the current geofence</li>
                     <li>
