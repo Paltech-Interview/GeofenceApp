@@ -53,12 +53,11 @@ const GeofenceMap = () => {
     };
 
     const handleEditGeofence = () => {
-        if (isEditingGeofence) {
+        if (isEditingGeofence || selectedGeofences.length !== 1) {
             setIsEditingGeofence(false);
             return;
         }
         setIsEditingGeofence(true);
-        if (selectedGeofences.length !== 1) return;
         setIsCreatingGeofence(true);
         setCurrentGeofence(selectedGeofences[0]);
     };
